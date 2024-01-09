@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+nav{
+    display: flex;
+    margin-top: 1rem;
+    align-content: center;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+    color:hsl(219, 9%, 45%) ;
+}
+.collections{
+    /* margin-left: -2rem; */
+    /* padding-right: 13rem; */
+}
+.cartMan{
+    padding-left: 20rem;
+}
+li{
+    list-style-type: none;
+}
+.logo{
+    width: 25%;
+    display: block;
+    /* margin-right: rem; */
+}
+ul{
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+hr{
+    margin-bottom: 3rem;
+    /* font-weight: lighter; */
+    /* border: transparent; */
+    border: 1px solid hsl(219, 9%, 45%);
+}
+.man img{
+    width: 40%;
+    display: block;
+}
+section{
+    display: flex;
+}
+.bigSneakers img{
+    width: 70%;
+}
+.smallSneakers{
+    display: flex;
+    width: 30%;
+}
